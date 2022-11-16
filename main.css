@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgba(50, 50, 50,);
+}
+body{
+    justify-content: center;
+    text-align: center;
+    margin-top: 300px;
+    font-size: x-large;
+    font-family: 'Bungee', cursive;
+}
+
+body{
+    background: linear-gradient(45deg, #DF55FA, #63F0FF, #57DB3C, #F2CF44, #DB5E32, #DF55FA,#57DB3C);
+    background-size: 400% 400%;
+    animation: bg-animation 10s infinite alternate;
+}
+@keyframes bg-animation{
+    0%{
+        background-position: left;
+    }
+    100%{
+        background-position: right;
+    }
+}
